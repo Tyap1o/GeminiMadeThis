@@ -23,12 +23,12 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-top: 60px;   /* ヘッダーの高さ分余白を追加 */
+    margin-top: -60px;   /* 位置を戻す（見た目はそのまま） */
 }
 
 .section {
     padding: 60px 0;
-    padding-top: 60px;   /* ヘッダーの高さ分余白を追加 */
-    margin-top: -60px;   /* 位置を戻す（見た目はそのまま） */
 }
 
 .section-title {
